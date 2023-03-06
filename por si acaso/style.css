@@ -1,0 +1,104 @@
+/*clase del nav superior de la pagina de inicio*/
+.navegador {
+    background-color: rgb(165, 158, 231);
+    background-size: cover;
+}
+
+/*acomode los iconos de boobstrap en fila*/
+.posicion {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0%;
+}
+
+/*clase de la seccion catalogo*/
+.cuerpo {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+/*Texto de bienvenida e introductorio del inicio, lo comparto con el texto*/
+.cuerpo1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(165, 158, 231);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*imagen de fondo del inicio*/
+.cuerpo2 {
+    background-image: url(t_l_s.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px;
+}
+
+/*Tabla de horarios de atencion*/
+.tabla {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-color: rgb(165, 158, 231);
+    border-style: solid;
+    border-width: 1;
+    padding: 0%;
+}
+
+/*Subtitulo de la tabla de horarios*/
+.tabla1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+/*No me salio acomodar esteticamente los botones de Ws y Gmail (Redes Sociales ) junto con los de Bootstrap*/
+.pie1 {
+    background-color: rgb(165, 158, 231);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+/*da formato al footer en la parte del derecho de autor*/
+.pie2 {
+    background-color: rgb(165, 158, 231);
+    margin-bottom: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+/*Borde del formulario, fue modificado usando bootstrap*/
+#exampleFormControlTextarea1 {
+    background-color: rgba(255, 192, 203, 0.473);
+    border-color: blue;
+}
+
+#exampleFormControlInput1 {
+    border-color: blue;
+    background-color: rgba(255, 192, 203, 0.473);
+}
+
+/*modifique como se alineaban las opciones de contacto con flex*/
+.detalle0 {
+    display: flex;
+    flex-direction: column 217px, 320px;
+}
+
+.resto {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.asidecont {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.resto1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+
+}
